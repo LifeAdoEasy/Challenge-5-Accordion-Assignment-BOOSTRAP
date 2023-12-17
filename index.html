@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css"
+    />
+    <title>Challenge 4 (Accordion)</title>
+  </head>
+  <body>
+    <!-- ACCORDION 1 -->
+    <div class="accordion" id="sections">
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="heading-1">
+          <button
+            class="accordion-button"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#section-1"
+            aria-expanded="true"
+            aria-controls="section-1"
+          >
+            What is this program all about?
+          </button>
+        </h2>
+        <div
+          id="section-1"
+          class="accordion-collapse collapse hide"
+          aria-labelledby="heading-1"
+          data-bs-parent="#sections"
+        >
+          <div class="accordion-body">
+            <p>
+              This program is a 6-Month Immersive Bootcamp which affords the
+              opportunity for individual to eat, sleep and dream code everyday
+              without distraction, in the midst of other determined developers
+              like themselves away from family, work or distractions. This
+              approach provides a shorter learning path to becoming a succesful
+              software engineer and securing a job.
+            </p>
+            <p>
+              We have two different programs at ITSKillsCenter. Regular programs
+              and A 6-Month Immersive Bootcamp. You can pay for our regular
+              programs but you have to apply to get into the 6-months Immersive
+              Bootcamp. Both programs offer you the opportunity to future-proof
+              your career and become ready to work as a professional software
+              engineer.
+            </p>
+          </div>
+        </div>
+      </div>
+      <!-- ACCORDION 2 -->
+      <div class="accordion-item">
+        <div class="accordion header" id="header-2">
+          <h2>
+            <button
+              class="accordion-button"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#heading-2"
+              aria-expanded="true"
+              aria-controls="#heading-2"
+            >
+              How is ITSkillsCentre different from others?
+            </button>
+          </h2>
+          <div
+            id="section-2"
+            class="accordion-collapse collapse show"
+            aria-labelledby="heading-2"
+            data-bs-parent="sections"
+          >
+            <p>
+              We are not just an Institute of Technology, we are first a
+              Software Development Agency with track record of successful
+              projects with companies in Oil & Gas, Insurance, Banking,
+              Telecoms, Hospitality, Entertainment and Ecommerce. We bring over
+              7 years experience of building products into the classroom and
+              impact our students with hands-on experience in building quality
+              products.
+            </p>
+            <p>
+              Our elite team deliver lectures in a precise and simple, yet easy
+              to understand approach taking you from beginner to junior software
+              developer in 9 weeks or from intermediate to Senior developer
+              level in 14 weeks.
+            </p>
+          </div>
+        </div>
+      </div>
+      <!-- ACCORDION 3 -->
+      <div class="accordion-item">
+        <div class="accordion header" id="header-3">
+          <h2>
+            <button
+              class="accordion-button"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#heading-3"
+              aria-expanded="true"
+              aria-controls="#heading-3"
+            >
+              What are the requirements for the program?
+            </button>
+          </h2>
+          <div
+            id="section-3"
+            class="accordion-collapse collapse show"
+            aria-labelledby="heading-3"
+            data-bs-parent="sections"
+          >
+            <p>
+              We are not just an Institute of Technology, we are first a
+              Software Development Agency with track record of successful
+              projects with companies in Oil & Gas, Insurance, Banking,
+              Telecoms, Hospitality, Entertainment and Ecommerce. We bring over
+              7 years experience of building products into the classroom and
+              impact our students with hands-on experience in building quality
+              products.
+            </p>
+            <p>
+              Our elite team deliver lectures in a precise and simple, yet easy
+              to understand approach taking you from beginner to junior software
+              developer in 9 weeks or from intermediate to Senior developer
+              level in 14 weeks.
+            </p>
+          </div>
+        </div>
+      </div>
+      <!-- ACCORDION 4 -->
+      <div class="accordion-item">
+        <div class="accordion header" id="header-4">
+          <h2>
+            <button
+              class="accordion-button"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#heading-4"
+              aria-expanded="true"
+              aria-controls="#heading-4"
+            >
+              What happens after I apply for the program?
+            </button>
+          </h2>
+          <div
+            id="section-4"
+            class="accordion-collapse collapse show"
+            aria-labelledby="heading-4"
+            data-bs-parent="sections"
+          >
+            <p>
+              You will go through two interviews. The first is a technical
+              interview to access your cognitive abilites while the second
+              interview will access your behavior and attitude. Once you succeed
+              in both interviews, you will be required to pick a financing
+              option.
+            </p>
+            <p>
+              You will finally be sent an admission letter stating all you need
+              to know about resumption, curricilum, program schedules and
+              accomodation.
+            </p>
+          </div>
+        </div>
+      </div>
+      <!-- ACCORDION 5 -->
+      <div class="accordion-item">
+        <div class="accordion header" id="header-5">
+          <h2>
+            <button
+              class="accordion-button"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#heading-5"
+              aria-expanded="true"
+              aria-controls="#heading-5"
+            >
+              What will I learn at the 6-month Bootcamp?
+            </button>
+          </h2>
+          <div
+            id="section-5"
+            class="accordion-collapse collapse show"
+            aria-labelledby="heading-5"
+            data-bs-parent="sections"
+          >
+            <p>
+              All those accepted into the program will be divided into subgroups
+              based on student interests, performance at interview tests and
+              market demand.
+            </p>
+            <p>
+              A subset will learn web development covering MERN Stack, while
+              another subset will focus on Mobile development with
+              Flutter/ReactNative, and a third subset will be trained to become
+              Product Managers.
+            </p>
+          </div>
+        </div>
+      </div>
+      <!-- ACCORDION 6 -->
+      <div class="accordion-item">
+        <div class="accordion header" id="header-6">
+          <h2>
+            <button
+              class="accordion-button"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#heading-6"
+              aria-expanded="true"
+              aria-controls="#heading-6"
+            >
+              Is this training strictly physical, onsite, 24/7. What is the
+              schedule like?
+            </button>
+          </h2>
+          <div
+            id="section-6"
+            class="accordion-collapse collapse show"
+            aria-labelledby="heading-6"
+            data-bs-parent="sections"
+          >
+            <p>
+              Yes, this is strictly onsite and physical. It is a bootcamp,
+              meaning, you will camp with other like-minds eating, drinking and
+              dreaming code for 6months. The program runs from Monday - Saturday
+              / 9am - 6pm Daily.
+            </p>
+            <p>
+              You cannot combine this with your work, school or any other
+              activities. This is the only way we can guarantee that you will
+              focus, learn and be good enough within 6 months, ready to be hired
+              by our partners.
+            </p>
+            <p>If you are already too busy, please don't apply.</p>
+            <p>
+              If you have your own accomodation in Lagos, you can be permitted
+              to leave daily by 6pm.
+            </p>
+          </div>
+        </div>
+      </div>
+      <!-- ACCORDION 7 -->
+      <div class="accordion-item">
+        <div class="accordion header" id="header-7">
+          <h2>
+            <button
+              class="accordion-button"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#heading-7"
+              aria-expanded="true"
+              aria-controls="#heading-7"
+            >
+              Can a Student, Corper or working class apply?
+            </button>
+          </h2>
+          <div
+            id="section-7"
+            class="accordion-collapse collapse show"
+            aria-labelledby="heading-7"
+            data-bs-parent="sections"
+          >
+            <p>
+              No, you can't apply as a student or corper or as someone holding a
+              fulltime job. This is strictly onsite and physical. It is a
+              bootcamp, meaning, you are required to be available Monday -
+              Saturday / 9am - 6pm Daily
+            </p>
+            <p>
+              You can apply to our regular programs as a busy person. Regular
+              programs are more flexible and can accomodate your schedule
+            </p>
+          </div>
+        </div>
+      </div>
+      <!-- ACCORDION 8 -->
+      <div class="accordion-item">
+        <div class="accordion header" id="header-8">
+          <h2>
+            <button
+              class="accordion-button"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#heading-8"
+              aria-expanded="true"
+              aria-controls="#heading-8"
+            >
+              What is the duration of the program?
+            </button>
+          </h2>
+          <div
+            id="section-8"
+            class="accordion-collapse collapse show"
+            aria-labelledby="heading-8"
+            data-bs-parent="sections"
+          >
+            <p>
+              The duration of the program is 6 Months. The first 3 months is
+              active class lectures while the last 3 months is active work on
+              real-life projects with real clients.
+            </p>
+          </div>
+        </div>
+      </div>
+      <!-- ACCORDION 9 -->
+      <div class="accordion-item">
+        <div class="accordion header" id="header-9">
+          <h2>
+            <button
+              class="accordion-button"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#heading-9"
+              aria-expanded="true"
+              aria-controls="#heading-9"
+            >
+              What are my chances of getting a job after the program?
+            </button>
+          </h2>
+          <div
+            id="section-9"
+            class="accordion-collapse collapse show"
+            aria-labelledby="heading-9"
+            data-bs-parent="sections"
+          >
+            <p>
+              From our track records, we have 95% placement rate and non of our
+              current graduates are jobless. Therefore, you have a very good
+              chance of getting a good job if you put in the work of learning,
+              become very good at what you do and following our guide on how to
+              get a good job.
+            </p>
+          </div>
+        </div>
+      </div>
+      <!-- ACCORDION 10 -->
+      <div class="accordion-item">
+        <div class="accordion header" id="header-10">
+          <h2>
+            <button
+              class="accordion-button"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#heading-10"
+              aria-expanded="true"
+              aria-controls="#heading-10"
+            >
+              What are my chances of getting a job after the program?
+            </button>
+          </h2>
+          <div
+            id="section-10"
+            class="accordion-collapse collapse show"
+            aria-labelledby="heading-10"
+            data-bs-parent="sections"
+          >
+            <p>
+              From our track records, we have 95% placement rate and non of our
+              current graduates are jobless. Therefore, you have a very good
+              chance of getting a good job if you put in the work of learning,
+              become very good at what you do and following our guide on how to
+              get a good job.
+            </p>
+          </div>
+        </div>
+      </div>
+      <!--  -->
+    </div>
+  </body>
+</html>
